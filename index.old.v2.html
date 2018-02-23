@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="tToAuyT-KJWv_R1FBD30uGxNmMDpHmmL2fQiaZXmqDU" />
+  <title>Jess Hooper is Online</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  
+  <meta name="author" content="Jess Hooper">
+  <meta name="description" content="Jess Hooper is a content strategist and copywriter from Melbourne, Australia.">
+  <meta name="keywords" content="content strategist, copywriter, language, writing, envato, freelance, movember">
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93957283-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".about span" ).draggable();
+    $( "#spare-words span" ).draggable();
+  } );
+  </script>
+  <script>
+	  function changeImage(img){
+		  document.body.style.backgroundImage = 'url(images/'+img+'.jpg)';		  
+	  }
+	  </script>
+	  
+	  <script>
+		function shuffle(e) {               // pass the divs to the function
+			var replace = $('<span>');
+			var size = e.size();
+
+			while (size >= 1) {
+				var rand = Math.floor(Math.random() * size);
+				var temp = e.get(rand);      // grab a random div from our set
+				replace.append(temp);        // add the selected div to our new set
+				e = e.not(temp); // remove our selected div from the main set
+				size--;
+    		}
+			$('#poetry').html(replace.html() );     // update our container div with the
+                                             // new, randomized divs
+			}
+
+			shuffle( $('#poetry span') );
+		</script>
+</head>
+
+
+
+<body>
+<div class="backgroundswitch">
+    <span class="switcher">Background: 
+    <a href="#" id="trashbagel" onclick="changeImage(this.id)">Trash bagel</a> / 
+    <a href="#" id="painteddog" onclick="changeImage(this.id)">Painted dog</a> / 
+	<a href="#" id="desert" onclick="changeImage(this.id)">Desert</a> / 
+	<a href="#" id="fog" onclick="changeImage(this.id)">Fog</a> / 
+	<a href="#" id="tree" onclick="changeImage(this.id)">Tree</a> / 
+	<a href="#" id="cat" onclick="changeImage(this.id)">Night cat</a>
+    </span>
+</div>
+	
+	<div id="container">
+		<div class="about" id="poetry">
+			<span>It was </span>
+			<span>a </span>
+			<span>dark </span>
+			<span>and </span>
+			<span>stormy </span>
+			<span>night</span><span>; </span>
+			<span>the rain </span>
+			<span>fell </span>
+			<span>in </span>
+			<span>sheets</span><span>, </span> 
+			<span>and I </span>
+			<span>sat </span>
+			<span>down </span>
+			<span>to </span>
+			<span>write </span>
+			<span>my </span>
+			<span>bio</span><span>. </span>
+			<span>Hi</span><span>, </span>
+			<span>I’m </span>
+			<span class="emph">Jess Hooper</span><span>.</span>
+			<span>The wind</span> 
+			<span>is</span> 
+			<span>howling</span> 
+			<span>through</span> 
+			<span>the streets</span><span>,</span> 
+			<span>and</span> 
+			<span>I’m a</span> 
+			<span class="emph">copywriter</span> 
+			<span>and</span> 
+			<span class="emph">content strategist</span><span>.</span>
+			<span>Like</span> 
+			<span>the</span> 
+			<span>spiders</span> 
+			<span>who’ve</span> 
+			<span>retreated</span><span>&mdash;</span><span>quivering</span><span>&mdash;</span><span>under</span> 
+			<span>the eaves</span><span>,</span> 
+			<span>I</span> 
+			<span>make</span> 
+			<span>things</span> 
+			<span>for</span> 
+			<span>the</span> 
+			<span>web</span><span>.</span>
+		</div>
+		<div id="spare-words">
+			<H2>Spare words</H2>
+			<span>a</span>
+			<span>but</span>
+			<a href="mailto:jess@smallbuteffective.com">email</a>
+			<span>possible</span>
+			<a href="http://smallbuteffective.tumblr.com/">Tumblr</a>
+			<span>then</span>
+			<span>and</span>
+			<span>worms</span>
+			<a href="http://twitter.com/jess_hooper">Twitter</a>
+			<span>in</span>
+			<span>psychic</span>
+			<a href="https://www.instagram.com/smallbuteffective/">Instagram</a>
+			<span>it</span>
+			<span>artificial</span>
+			<a href="http://photos.smallbuteffective.com/">Photos</a>
+			<span>is</span>
+			<span>?</span>
+			<a href="https://www.linkedin.com/in/jesshooper1">LinkedIn</a>
+			<span>of</span>
+			<span>sleepily</span>
+		</div>
+	<div id="info">
+		<div class="left">
+			<h3>Currently</h3>
+				<p>
+				Senior Copywriter & Content Specialist at Movember Foundation
+				</p>
+		</div>
+		<div class="right">
+			<h3>Previously</h3>
+				<p>
+				Tuts+<br>
+				Envato Marketplaces
+				</p>
+			</div>
+		<div class="clear"></div>
+	</div>	
+		
+	</div>
+</body>
+
+
+
+
+</html>
+
+
+
